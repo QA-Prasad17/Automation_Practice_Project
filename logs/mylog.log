@@ -1,0 +1,76 @@
+2024-04-01 15:25:47 INFO  ebanking:16 - URL is opened
+2024-04-01 15:25:48 INFO  ebanking:21 - Enter username
+2024-04-01 15:25:48 INFO  ebanking:23 - Enter password
+2024-04-01 15:25:49 INFO  ebanking:28 - Login test passed
+2024-04-01 16:16:56 INFO  ebanking:16 - URL is opened
+2024-04-01 16:16:56 INFO  ebanking:21 - Enter username
+2024-04-01 16:16:56 INFO  ebanking:23 - Enter password
+2024-04-01 16:17:38 INFO  ebanking:16 - URL is opened
+2024-04-01 16:17:38 INFO  ebanking:21 - Enter username
+2024-04-01 16:17:38 INFO  ebanking:23 - Enter password
+2024-04-01 16:19:32 INFO  ebanking:16 - URL is opened
+2024-04-01 16:19:33 INFO  ebanking:21 - Enter username
+2024-04-01 16:19:33 INFO  ebanking:23 - Enter password
+2024-04-01 16:21:32 INFO  ebanking:16 - URL is opened
+2024-04-01 16:21:32 INFO  ebanking:21 - Enter username
+2024-04-01 16:21:32 INFO  ebanking:23 - Enter password
+2024-04-01 16:22:36 INFO  ebanking:16 - URL is opened
+2024-04-01 16:22:36 INFO  ebanking:21 - Enter username
+2024-04-01 16:22:36 INFO  ebanking:23 - Enter password
+2024-04-01 16:22:37 INFO  ebanking:28 - Login test passed
+2024-04-01 17:25:29 INFO  ebanking:16 - URL is opened
+2024-04-01 17:25:30 INFO  ebanking:21 - Enter username
+2024-04-01 17:25:30 INFO  ebanking:23 - Enter password
+2024-04-01 17:25:32 INFO  ebanking:28 - Login test passed
+2024-04-01 17:28:16 INFO  ebanking:16 - URL is opened
+2024-04-01 17:28:16 INFO  ebanking:21 - Enter username
+2024-04-01 17:28:16 INFO  ebanking:23 - Enter password
+2024-04-01 17:28:18 INFO  ebanking:28 - Login test passed
+2024-04-01 17:31:09 INFO  ebanking:16 - URL is opened
+2024-04-01 17:31:09 INFO  ebanking:21 - Enter username
+2024-04-01 17:31:10 INFO  ebanking:23 - Enter password
+2024-04-01 17:31:11 INFO  ebanking:28 - Login test passed
+2024-04-02 16:26:04 INFO  ebanking:16 - URL is opened
+2024-04-02 16:26:05 INFO  ebanking:21 - Enter username
+2024-04-02 16:26:05 INFO  ebanking:23 - Enter password
+2024-04-02 16:26:07 INFO  ebanking:28 - Login test passed
+2024-04-02 17:35:29 INFO  ebanking:16 - URL is opened
+2024-04-02 17:35:31 INFO  ebanking:21 - Enter username
+2024-04-02 17:35:31 INFO  ebanking:23 - Enter password
+2024-04-02 17:35:32 INFO  ebanking:28 - Login test passed
+2024-04-02 17:41:11 INFO  ebanking:16 - URL is opened
+2024-04-02 17:41:12 INFO  ebanking:21 - Enter username
+2024-04-02 17:41:12 INFO  ebanking:23 - Enter password
+2024-04-02 17:41:13 INFO  ebanking:28 - Login test passed
+2024-04-02 17:42:09 INFO  ebanking:17 - Enter username
+2024-04-02 17:42:09 INFO  ebanking:19 - Enter password
+2024-04-02 17:44:19 INFO  ebanking:18 - Enter username
+2024-04-02 17:44:19 INFO  ebanking:20 - Enter password
+2024-04-02 17:46:49 INFO  ebanking:18 - Enter username
+2024-04-02 17:46:49 INFO  ebanking:20 - Enter password
+2024-04-02 17:48:39 INFO  ebanking:18 - Enter username
+2024-04-02 17:48:39 INFO  ebanking:20 - Enter password
+2024-04-02 17:49:55 INFO  ebanking:18 - Enter username
+2024-04-02 17:49:56 INFO  ebanking:20 - Enter password
+2024-04-02 17:53:30 INFO  ebanking:18 - Enter username
+2024-04-02 17:53:31 INFO  ebanking:20 - Enter password
+2024-04-02 17:58:29 INFO  ebanking:18 - Enter username
+2024-04-02 17:58:29 INFO  ebanking:20 - Enter password
+2024-04-02 18:18:35 INFO  ebanking:18 - Enter username
+2024-04-02 18:18:35 INFO  ebanking:20 - Enter password
+2024-04-02 18:19:32 INFO  ebanking:18 - Enter username
+2024-04-02 18:19:32 INFO  ebanking:20 - Enter password
+2024-04-02 18:22:01 INFO  ebanking:18 - Enter username
+2024-04-02 18:22:01 INFO  ebanking:20 - Enter password
+2024-04-02 18:22:42 INFO  ebanking:18 - Enter username
+2024-04-02 18:22:43 INFO  ebanking:20 - Enter password
+2024-04-02 18:23:02 INFO  ebanking:18 - Enter username
+2024-04-02 18:23:02 INFO  ebanking:20 - Enter password
+2024-04-02 18:24:23 INFO  ebanking:18 - Enter username
+2024-04-02 18:24:23 INFO  ebanking:20 - Enter password
+2024-04-02 18:25:03 INFO  ebanking:18 - Enter username
+2024-04-02 18:25:03 INFO  ebanking:20 - Enter password
+2024-04-02 18:30:52 INFO  ebanking:18 - Enter username
+2024-04-02 18:30:53 INFO  ebanking:20 - Enter password
+2024-04-02 18:35:08 INFO  ebanking:24 - Enter username
+2024-04-02 18:35:09 INFO  ebanking:26 - Enter password

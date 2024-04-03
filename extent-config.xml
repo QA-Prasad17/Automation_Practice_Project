@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Specify the report file location -->
+        <reportPath>test-output/ExtentReport.html</reportPath>
+        
+        <!-- Specify the document title -->
+        <documentTitle>Test Automation Report</documentTitle>
+        
+        <!-- Specify the encoding for the report -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- Specify the theme for the report -->
+        <theme>standard</theme>
+        
+        <!-- Specify whether charts should be visible by default -->
+        <chartsVisibility>ON_OPEN</chartsVisibility>
+        
+        <!-- Specify whether logs should be added to the report -->
+        <addLogs>true</addLogs>
+        
+        <!-- Specify whether screenshots should be added to the report -->
+        <captureScreenCapture>true</captureScreenCapture>
+    </configuration>
+</extentreports>
