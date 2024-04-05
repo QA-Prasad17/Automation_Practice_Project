@@ -2,8 +2,9 @@ package com.banking.testCases;
 
 import java.io.IOException;
 
-import org.junit.Assert;
+
 import org.openqa.selenium.NoAlertPresentException;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ import com.banking.utilities.XLUtils;
 public class LoginDDT extends BaseClass {
 	
 	@Test(dataProvider="LoginDDT")
-	public void loginDDT(String user, String pwd) throws InterruptedException
+	public void loginDDT(String user, String pwd) throws InterruptedException, IOException
 	{
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserNAme(user);
@@ -32,6 +33,7 @@ public class LoginDDT extends BaseClass {
 		}
 		else
 		{
+			
 			Assert.assertTrue(true);
 			logger.info("login passed");
 			lp.clickLogout();
@@ -60,7 +62,7 @@ public class LoginDDT extends BaseClass {
 	@DataProvider(name = "LoginDDT")
 	String[][] getData() throws IOException
 	{
-		//String path = System.getProperty("user.dir") + "/src/test/java/com/banking/testData/PracticeBook.xlsx";
+	
 		String path = System.getProperty("user.dir") + "/src/test/java/com/banking/testData/PracticeBook.xlsx";
 
 		int rownum = XLUtils.getRowCount(path, "Sheet1");
@@ -75,7 +77,9 @@ public class LoginDDT extends BaseClass {
 				logindata[i-1][j] = XLUtils.getCellData(path, "Sheet1", i,j);
 			}
 		}
+		
 		return logindata;
+		
 	}
 
 }

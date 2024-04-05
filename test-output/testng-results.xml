@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-02T18:35:01 IST" name="bankingProject_v1" finished-at="2024-04-02T18:35:18 IST" duration-ms="17110">
+  <suite started-at="2024-04-04T13:20:49 IST" name="bankingProject_v1" finished-at="2024-04-04T13:21:03 IST" duration-ms="14303">
     <groups>
     </groups>
-    <test started-at="2024-04-02T18:35:01 IST" name="BankingApp Test" finished-at="2024-04-02T18:35:18 IST" duration-ms="17110">
-      <class name="com.banking.testCases.addCustomerTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.addCustomerTest@3e2055d6]" started-at="2024-04-02T18:35:01 IST" name="setup" finished-at="2024-04-02T18:35:07 IST" duration-ms="6020" status="PASS">
+    <test started-at="2024-04-04T13:20:49 IST" name="BankingApp Test" finished-at="2024-04-04T13:21:03 IST" duration-ms="14303">
+      <class name="com.banking.testCases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.LoginTest@3315d2d7]" started-at="2024-04-04T13:20:49 IST" name="setup" finished-at="2024-04-04T13:20:55 IST" duration-ms="5643" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,65 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.banking.testCases.addCustomerTest@3e2055d6]" started-at="2024-04-02T18:35:07 IST" name="addNewCustomer" finished-at="2024-04-02T18:35:18 IST" duration-ms="10637" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: popup_xpath (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53766/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 94d079edf42b6023fbd417a740ec0a1b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: popup_xpath (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53766/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 94d079edf42b6023fbd417a740ec0a1b
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.banking.testCases.addCustomerTest.addNewCustomer(addCustomerTest.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="loginTEst()[pri:0, instance:com.banking.testCases.LoginTest@3315d2d7]" started-at="2024-04-04T13:20:55 IST" name="loginTEst" finished-at="2024-04-04T13:21:03 IST" duration-ms="8107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.addCustomerTest@3e2055d6]" started-at="2024-04-02T18:35:18 IST" name="tearDown" finished-at="2024-04-02T18:35:18 IST" duration-ms="358" status="PASS">
+        </test-method> <!-- loginTEst -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.LoginTest@3315d2d7]" started-at="2024-04-04T13:21:03 IST" name="tearDown" finished-at="2024-04-04T13:21:03 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.banking.testCases.addCustomerTest -->
+      </class> <!-- com.banking.testCases.LoginTest -->
     </test> <!-- BankingApp Test -->
   </suite> <!-- bankingProject_v1 -->
 </testng-results>
